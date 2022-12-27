@@ -2,10 +2,10 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class DemoArray {
-    public static void main(String args[]){
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        
-        int ageArray[] = new int[5];
+
+        int[] ageArray = new int[5];
         for(int i = 0;i<ageArray.length;i++){
             ageArray[i] = sc.nextInt();
         }
