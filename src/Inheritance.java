@@ -1,12 +1,12 @@
-class Square {
+class SquareInput {
     protected double length, breadth;
-    Square(double length, double breadth) {
+    SquareInput(double length, double breadth) {
         this.length = length;
         this.breadth = breadth;
         System.out.println("Length=" + length + "Breadth=" + breadth);
     }
 }
-public class Inheritance extends Square {
+public class Inheritance extends SquareInput {
     double height;
     Inheritance(double length, double breadth, double height) {
         super(length, breadth);
